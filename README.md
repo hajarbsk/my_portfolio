@@ -6,4 +6,4 @@
 
 ---
 
-![Ma photo](./public/hajar.jpg)
+![Ma photo](./public/img.png)
