@@ -10,10 +10,7 @@ export const metadata: Metadata = {
   title: "Hajar Bousaken - Computer Engineering Student",
   description:
     "Portfolio of Hajar Bousaken, passionate computer engineering student specializing in web development and data science",
-    
-  icons: {
-    icon: "/logo.png",
-  },
+  generator: "v0.app",
 }
 
 export default function RootLayout({
@@ -23,7 +20,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} antialiased`}>
         <Suspense fallback={null}>{children}</Suspense>
         <Analytics />

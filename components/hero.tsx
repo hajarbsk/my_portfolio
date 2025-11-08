@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
-import { Github, Linkedin, Mail, Phone } from "lucide-react"
+import { Download, Github, Linkedin, Mail, Phone } from "lucide-react"
+import DownloadCVButton from '@/components/DownloadCVButton';
 
 export function Hero() {
   return (
@@ -32,6 +33,7 @@ export function Hero() {
           >
             <a href="#contact">Get In Touch</a>
           </Button>
+          <DownloadCVButton />
         </div>
 
         <div className="flex items-center justify-center gap-8 pt-8">

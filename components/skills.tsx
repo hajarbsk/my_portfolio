@@ -27,7 +27,7 @@ const skillCategories = [
   },
   {
     title: "Languages",
-    skills: ["Arabic (Native)", "French (Professional)", "English (Professional)"],
+    skills: ["Arabic (Native)", "French (Fluent)", "English (Conversational)"],
   },
 ]
 
@@ -48,10 +48,9 @@ export function Skills() {
               <div key={index} className="space-y-4">
                 <div className="relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-transparent rounded-lg blur-sm"></div>
-                  <h3 className="relative text-xl font-bold text-blue-500 border-l-4 border-blue-500 pl-4 py-2">
+                  <h3 className="relative text-xl font-bold text-foreground bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent border-l-4 border-primary pl-4 py-2">
                     {category.title}
                   </h3>
-
                 </div>
                 <div className="flex flex-wrap gap-2">
                   {category.skills.map((skill, skillIndex) => (
@@ -71,7 +70,7 @@ export function Skills() {
           <div className="pt-8 border-t border-border">
             <div className="relative mb-4">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-transparent rounded-lg blur-sm"></div>
-              <h3 className="relative text-xl font-bold text-blue-500 border-l-4 border-blue-500 pl-4 py-2">
+              <h3 className="relative text-xl font-bold text-foreground bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent border-l-4 border-primary pl-4 py-2">
                 Certifications
               </h3>
             </div>

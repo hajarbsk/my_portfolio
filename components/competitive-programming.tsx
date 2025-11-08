@@ -1,13 +1,13 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { ExternalLink, Code, Trophy, Target ,Shield} from "lucide-react"
+import { ExternalLink, Code, Trophy, Target } from "lucide-react"
 
 const platforms = [
   {
     name: "LeetCode",
     description: "Algorithmic problem solving and coding interviews preparation",
     icon: Code,
-    link: "https://leetcode.com/u/HAJAR2BOUSAKEN/",
+    link: "https://leetcode.com/hajarbsk",
     stats: "Active problem solver",
     color: "from-orange-500 to-yellow-500",
   },
@@ -15,7 +15,7 @@ const platforms = [
     name: "HackerRank",
     description: "Programming challenges and skill assessments",
     icon: Trophy,
-    link: "https://www.hackerrank.com/profile/hajarbousaken20",
+    link: "https://hackerrank.com/hajarbousaken20",
     stats: "Multiple certifications earned",
     color: "from-green-500 to-emerald-500",
   },
@@ -23,17 +23,9 @@ const platforms = [
     name: "Codeforces",
     description: "Competitive programming contests and practice",
     icon: Target,
-    link: "https://codeforces.com/profile/almontaqibaIT",
+    link: "https://codeforces.com/profile/hajarbsk",
     stats: "Regular contest participant",
     color: "from-blue-500 to-cyan-500",
-  },
-  {
-    name: "Cisco Networking Basics",
-    description: "Completed Cisco Networking Basics course on NetAcad",
-    icon: Shield, // tu peux remplacer par une icône spécifique si tu veux
-    link: "https://www.netacad.com/dashboard", // ton lien vers le certificat
-    stats: "Completed certificate course",
-    color: "from-green-500 to-lime-500",
   },
 ]
 

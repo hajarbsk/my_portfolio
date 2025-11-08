@@ -11,11 +11,9 @@ import { Contact } from "@/components/contact"
 
 export default function Home() {
   return (
-    
     <main className="min-h-screen bg-background relative">
       <StarryBackground />
       <div className="relative z-10">
-        
         <Navigation />
         <div id="home">
           <Hero />

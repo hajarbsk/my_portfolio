@@ -12,27 +12,28 @@ export function About() {
 
           <div className="space-y-6 text-lg leading-relaxed text-muted-foreground">
             <p>
-              I'm a passionate Software Engineering student in my 3rd year at ENSA Al Hoceima, 
-              driven by a strong ambition to design intelligent and efficient systems that solve real-world problems. 
-              I aim to combine <span className="text-foreground font-medium">software engineering principles</span> with the power of <span className="text-foreground font-medium">artificial intelligence</span> to build impactful and scalable solutions.
+              I'm a passionate computer engineering student in my 2nd year at ENSA Al Hoceima, driven by a genuine
+              desire to apply my skills in practice and immerse myself in the professional world through internships and
+              real-world projects.
             </p>
 
             <p>
-              Through my academic projects and personal explorations, 
-              I’ve developed solid experience in  <span className="text-foreground font-medium">full-stack development, 
-              data processing, and machine learning. </span>My approach integrates both 
-              technical precision and creative design, ensuring that the solutions 
-              I build are not only robust but also intuitive and user-centered.
+              My academic journey and personal projects have allowed me to develop solid expertise in{" "}
+              <span className="text-foreground font-medium">web development</span> (both front-end and back-end) as well
+              as <span className="text-foreground font-medium">data processing and machine learning</span>. I'm
+              enthusiastic about applying my knowledge while continuing to learn rapidly in a professional environment.
             </p>
 
             <p>
-             Currently, I’m focusing on <span className="text-foreground font-medium">AI-driven software 
-             engineering,</span> exploring how automation, deep learning, 
-             and modern architecture design 
-             can enhance <span className="text-foreground font-medium">software quality and user experience.</span>
+              Currently, I'm focused on building innovative solutions that bridge the gap between design and
+              development, creating experiences that are not only visually appealing but also technically robust and
+              user-friendly.
             </p>
 
-            
+            <p>
+              In my spare time, I enjoy problem-solving, reading, writing, and exploring the latest trends in web
+              development and artificial intelligence.
+            </p>
           </div>
         </div>
       </div>
